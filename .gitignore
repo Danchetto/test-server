@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.cache
+.vscode
+node_modules
+yarn-error.log
+
+# tests
+coverage
+/**/__snapshots__/*
+
+# app
+build
+.env
