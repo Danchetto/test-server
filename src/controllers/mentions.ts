@@ -31,8 +31,8 @@ export const findMentions = async (ctx: Context, next: Next) => {
     const id = mention.split('-')[1]
 
     const common = {
-      mention,
-      userValue,
+      mention: item[0],
+      userValue: userValue?.slice(1, userValue.length - 1),
     }
 
     switch (mention[0]) {
